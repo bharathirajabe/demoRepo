@@ -25,7 +25,7 @@ app.controller('MainCtrl', function($scope, $state) {
             
         })
         
-        .state('about', {
+        .state('contact', {
             url: '/about',
             views:{
               "viewOne":{
