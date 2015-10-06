@@ -12,7 +12,7 @@ app.controller('MainCtrl', function($scope, $state) {
     $stateProvider
         
         
-        .state('home', {
+        .state('down', {
             url: '/home',
             views:{
               "viewOne":{
