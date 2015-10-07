@@ -11,31 +11,8 @@ app.controller('MainCtrl', function($scope, $state) {
     
     $stateProvider
         
+      hellow added me 
         
-        .state('up', {
-            url: '/home',
-            views:{
-              "viewOne":{
-                template: '<div>hai</div>'
-              },
-              "viewTwo":{
-                template: '<div>how</div>'
-              }
-            }
-            
-        })
-        
-        .state('conta', {
-            url: '/about',
-            views:{
-              "viewOne":{
-                template: '<div>2</div>'
-              },
-              "viewTwo":{
-                template: '<div>1</div>'
-              }
-            }
-            
-        })
+
        
   });
