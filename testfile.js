@@ -11,19 +11,7 @@ app.controller('MainCtrl', function($scope, $state) {
     
     $stateProvider
         
-        
-        .state('up', {
-            url: '/home',
-            views:{
-              "viewOne":{
-                template: '<div>hai</div>'
-              },
-              "viewTwo":{
-                template: '<div>how</div>'
-              }
-            }
-            
-        })
+      
         
  
        
