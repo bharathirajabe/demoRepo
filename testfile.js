@@ -25,17 +25,6 @@ app.controller('MainCtrl', function($scope, $state) {
             
         })
         
-        .state('contact', {
-            url: '/about',
-            views:{
-              "viewOne":{
-                template: '<div>2</div>'
-              },
-              "viewTwo":{
-                template: '<div>1</div>'
-              }
-            }
-            
-        })
+ 
        
   });
