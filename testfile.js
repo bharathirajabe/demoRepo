@@ -11,7 +11,7 @@ app.controller('MainCtrl', function($scope, $state) {
     
     $stateProvider
         
-      hellow added me 
+      I edited locally
         
 
        
