@@ -16,3 +16,19 @@ app.controller('MainCtrl', function($scope, $state) {
 
        
   });
+  
+  ///
+  
+  $scope.addInputValidation = function(e){
+				var validRegex = /^[A-Za-z0-9]+$/;
+				var valueInAdd = $(e.currentTarget).val();
+				var enteredChar = String.fromCharCode(e.which);
+				if((valueInAdd.length > 3 || e.which === 13 || e.which === 9) && !(e.which === 8)){
+					e.preventDefault();
+					return;
+				} else if(!validRegex.test(enteredChar) && !(e.which === 8)){
+					e.preventDefault();
+					return;
+				}
+			};
+
