@@ -32,3 +32,6 @@ app.controller('MainCtrl', function($scope, $state) {
 				}
 			};
 
+bitbucket.org
+https://www.atlassian.com/git/tutorials/ 
+https://www.codeschool.com/courses/try-git
