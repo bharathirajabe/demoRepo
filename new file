@@ -1,0 +1,34 @@
+<input restrict="A" my-maxlength="6" ng-model="slug" type="text">
+
+
+
+.directive('myMaxlength', function() {
+  return {
+    require: 'ngModel',
+    link: function (scope, element, attrs, ngModelCtrl) {
+      var checkRegExp = attrs.restrict==="AN" ? /[^A-Za-z0-9]/ : attrs.restrict==="A" ? /[^A-Za-z]/ : attrs.restrict==="N" ? /[^0-9]/ : null;
+      var maxlength = Number(attrs.myMaxlength);
+      function fromUser(text) {
+        if(checkRegExp.test(text) || text.length > maxlength){
+          var transformedInput = text.replace(checkRegExp, '');
+          
+        
+          if (text.length > maxlength) {
+            console.log('hai');
+            transformedInput = transformedInput.substring(0, maxlength);
+            
+          }
+           ngModelCtrl.$setViewValue(transformedInput);
+            ngModelCtrl.$render();
+            return transformedInput;
+          }
+        
+        
+        
+          return text;
+      }
+      
+      ngModelCtrl.$parsers.push(fromUser);
+    }
+  }; 
+});
