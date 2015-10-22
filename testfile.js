@@ -34,3 +34,7 @@ $scope.addInputValidation = function(e){
 bitbucket.org
 https://www.atlassian.com/git/tutorials/ 
 https://www.codeschool.com/courses/try-git
+
+http://codepen.io/TheLarkInn/post/angularjs-directive-labs-allowpattern-directive-more-fun-with-keycodes
+
+
