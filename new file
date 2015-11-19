@@ -32,3 +32,12 @@
     }
   }; 
 });
+
+
+Created Aisle Location print screen view and controller.
+Added Aisle Location print state.
+Added Print option to Zone screen.
+Implemented front-end logic to fetch section count in Zone screen.
+Added text used in print screen to translate file.
+
+Added "ALGetCntOfSectsInZone" service and "adaptALGetCntOfSectsInZone" adapter.
