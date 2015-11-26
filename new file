@@ -1,43 +1,19 @@
-<input restrict="A" my-maxlength="6" ng-model="slug" type="text">
+Added "ALUpdateDetailsForZone" and "ALClearLocation" service.
+Implemented Edit Zone save function.
+created clear zone screen.
+Added "adaptALClearLocation" adapter.
+Implemented clear zone functions.
+Moved user job code validation variable to appCache properties.
+Moved aisle-loc-edit views to aisle-log-edit-popup.
+Implemented edit function for modify in More option.
+Added reusable code for delete-popup.
+Added "ALValidateZoneAisleSectionByID" services and "adaptALValidateZoneAisleSectionByID" adapter.
+Added "ALValidateZoneAisleSectionByName" services and "adaptALValidateZoneAisleSectionByName" adapter.
+Implemented validation function for scanned value in Zone screen.
+Implemented front-end function for ALValidateZoneAisleSectionByID and ALValidateZoneAisleSectionByName.
 
-
-
-.directive('myMaxlength', function() {
-  return {
-    require: 'ngModel',
-    link: function (scope, element, attrs, ngModelCtrl) {
-      var checkRegExp = attrs.restrict==="AN" ? /[^A-Za-z0-9]/ : attrs.restrict==="A" ? /[^A-Za-z]/ : attrs.restrict==="N" ? /[^0-9]/ : null;
-      var maxlength = Number(attrs.myMaxlength);
-      function fromUser(text) {
-        if(checkRegExp.test(text) || text.length > maxlength){
-          var transformedInput = text.replace(checkRegExp, '');
-          
-        
-          if (text.length > maxlength) {
-            console.log('hai');
-            transformedInput = transformedInput.substring(0, maxlength);
-            
-          }
-           ngModelCtrl.$setViewValue(transformedInput);
-            ngModelCtrl.$render();
-            return transformedInput;
-          }
-        
-        
-        
-          return text;
-      }
-      
-      ngModelCtrl.$parsers.push(fromUser);
-    }
-  }; 
-});
-
-
-Created Aisle Location print screen view and controller.
-Added Aisle Location print state.
-Added Print option to Zone screen.
-Implemented front-end logic to fetch section count in Zone screen.
-Added text used in print screen to translate file.
-
-Added "ALGetCntOfSectsInZone" service and "adaptALGetCntOfSectsInZone" adapter.
+Added "ALGetLocRestrictions" service and "adaptALGetLocRestrictions" adapter.
+Implemented front-end code for "Zone add" input text restriction length.
+added "GetALAisleToSectionAssignment" service and "adaptALAisleToSection" adapter.
+Implemented front-end logic to populate section items.
+Implemented front-end code for "ALAisleToSectionAssignment".
