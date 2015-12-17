@@ -1,7 +1,1 @@
-Implemented Aisle location - Sales Floor screen and populated sales floor items
-Added "ALGetSectionToUPCAssignment" service
-Added "adaptALGetSectionToUPCAssignment" adapter
-Implemented Aisle location - Bin screen and populated pallet items
-Added "ALGetPalletsAtSection" service
-Added "adaptALGetPalletsAtSection" adapter
-Helped to setup code to new resources and given a overview about Aisle Location 
+
