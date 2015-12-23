@@ -1,1 +1,16 @@
 
+Implemented front-end code for Sales floor Add item
+Implemented Sales floor Add item functionalities
+Implemented front-end code for Bin Add pallet
+Implemented Bin floor Add pallet functionalities
+Populated all the added Sales floor and Bin items in the Setup screen
+Deleted params object from aisle location setup add screen.
+Modified aisle location app cache datas in Zone, Aisle, Section and setup screens.
+Removed $rootScope variable used for setup screen and moved the datas to appCache.
+Modified aisle location setup controller function to use appCache datas instead of $rootScope.
+Modified aisle location setup Add controller to use appCache datas.
+Implemented aisle location setup Add screen.
+Removed $rootScope variable used in manage-pallet.controller for setup screen data.
+Added "adaptALAssignUPCToSection" adapter.
+Added adapter method option to "ALAssignUPCToSection" service.
+Modified the Location ID construction code in setup screen
