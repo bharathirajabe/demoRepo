@@ -1,1 +1,15 @@
 
+Removed popover function from zone controller, since it is replaced by select method.
+Modified function structure in zone controller so that loading screen will hide after displaying all info. Also to avoid checking user validation for every zone list refresh.
+Implemented scroll delegate in zone screen.
+Removed popover service from aisle loc service file.
+Changed direct text to translate text in zone controller.
+Changed the variable name “aisleToSection” to “zoneAisleDetails” and replaced the same in respective places.
+Implemented error function when there is no Section in an Aisle.
+Modified function structure in section controller.
+Moved “indicatorOptions” object to execute function of More.
+Changed the variable name “thisSection” to “selectedSectionInfo” and replaced the same in respective places.
+Replaced direct text to translate text in section controller.
+Removed unwanted codes.
+Modifed Zone name update and Zone description update function as per user selection.
+Implemented change Sales floor functions.
