@@ -1,1 +1,10 @@
-https://www.linkedin.com/comm/jobs2/view/94862800?refId=180ff154-6ded-4268-8f1f-683de603cb29&trk=eml-jymbii-organic-job-card&midToken=AQFXZgs_gt_-PA&trkEmail=eml-jobs_jymbii_digest-null-26-null-null-1o9vo1~iizc35z2~3o
+Optimized some coding's in MVP
+Assigned maxlength for Add and Edit zone box if the restriction data already present in appCache.
+The name of Section shows wrong when the section is added from Aisle screen. Checked with backend, ALDefineMultipleSects service updating is in process. once it updated name will display as expected.
+Removed indicatorOptions object construction from More and alprint function in Section screen. constructed commonly in sliderAction function.
+Modified sales floor item sell info static $ symbol to currency filter method.
+Changed direct text in Aisle location html to translate text.
+Tested Aisle location app.
+Modified sales floor item style.
+Removed unwanted codes.
+Tested the the Aisle Location app and oneops link.
