@@ -1,7 +1,1 @@
-•	After deleting a zone we are not calling ALUpdateZone. All other service mentioned are called.
-•	In section screen diagram the pointer line for More was not drawn.
-•	In MVP screen on clicking the Bin tab "ALGetPalletsAtSection" service call done. missed in the diagram.
-•	After clicking "save" option in Sales Floor modify popup. we are calling all the service which is mentioned in the diagram. Added to that we are calling "ALRemoveAllUPCsFromSection" service after "ALAssignUPCToSection".
-•	Need to add "ALGetUPCAndLocationInfo" service call in sales floor - Remove popup clicked.
-•	"ALGetAllRelationshipTypes" services is called on clicking "Add" option in Sales floor screen.
-•	When user click "Exit" in Add sales floor item screen we will call "ALGetSectionToUPCAssignment", "ALGetUPCAndLocationInfo" in setup screen.
+
