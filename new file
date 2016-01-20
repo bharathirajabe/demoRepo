@@ -1,10 +1,7 @@
-Optimized some coding's in MVP
-Assigned maxlength for Add and Edit zone box if the restriction data already present in appCache.
-The name of Section shows wrong when the section is added from Aisle screen. Checked with backend, ALDefineMultipleSects service updating is in process. once it updated name will display as expected.
-Removed indicatorOptions object construction from More and alprint function in Section screen. constructed commonly in sliderAction function.
-Modified sales floor item sell info static $ symbol to currency filter method.
-Changed direct text in Aisle location html to translate text.
-Tested Aisle location app.
-Modified sales floor item style.
-Removed unwanted codes.
-Tested the the Aisle Location app and oneops link.
+•	After deleting a zone we are not calling ALUpdateZone. All other service mentioned are called.
+•	In section screen diagram the pointer line for More was not drawn.
+•	In MVP screen on clicking the Bin tab "ALGetPalletsAtSection" service call done. missed in the diagram.
+•	After clicking "save" option in Sales Floor modify popup. we are calling all the service which is mentioned in the diagram. Added to that we are calling "ALRemoveAllUPCsFromSection" service after "ALAssignUPCToSection".
+•	Need to add "ALGetUPCAndLocationInfo" service call in sales floor - Remove popup clicked.
+•	"ALGetAllRelationshipTypes" services is called on clicking "Add" option in Sales floor screen.
+•	When user click "Exit" in Add sales floor item screen we will call "ALGetSectionToUPCAssignment", "ALGetUPCAndLocationInfo" in setup screen.
