@@ -1,1 +1,9 @@
 
+Integrating ALRemoveZone REST service for Zone screens
+Integrating ALGetZoneProperties REST service and adaptALGetZoneProperties for Zone screens
+Helped for new resource to integrate service.
+Integrating AlDefineZone REST service for Zone screens.
+Integrating ALDefineAisle REST service for Aisle screens
+Integrating ALRemoveAisle REST service for Aisle screens
+Integrating ALGetZoneToAisleAssignment REST service for Aisle screens
+Integrating ALGetNextAisle REST service for Aisle screens
