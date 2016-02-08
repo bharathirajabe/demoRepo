@@ -1,9 +1,7 @@
-
-Integrating ALRemoveZone REST service for Zone screens
-Integrating ALGetZoneProperties REST service and adaptALGetZoneProperties for Zone screens
-Helped for new resource to integrate service.
-Integrating AlDefineZone REST service for Zone screens.
-Integrating ALDefineAisle REST service for Aisle screens
-Integrating ALRemoveAisle REST service for Aisle screens
-Integrating ALGetZoneToAisleAssignment REST service for Aisle screens
-Integrating ALGetNextAisle REST service for Aisle screens
+Task	Expected Start Date 	Expected End Date	Actual Start Date	Actual End Date	Comments
+Overview of Aisle Location App and its basic setup's 	2/9/2016	2/9/2016			
+Driving through Zone, Aisle and Section screen codes	2/10/2016	2/10/2016			
+Driving through MVP screen codes	2/11/2016	2/11/2016			
+Touch base with SOAP service code	2/12/2016	2/12/2016			
+Touch base with REST service code	2/15/2016	2/15/2016			
+Touch base with resolved known defects	2/16/2016	2/16/2016			
