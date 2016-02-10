@@ -1,7 +1,6 @@
-Task	Expected Start Date 	Expected End Date	Actual Start Date	Actual End Date	Comments
-Overview of Aisle Location App and its basic setup's 	2/9/2016	2/9/2016			
-Driving through Zone, Aisle and Section screen codes	2/10/2016	2/10/2016			
-Driving through MVP screen codes	2/11/2016	2/11/2016			
-Touch base with SOAP service code	2/12/2016	2/12/2016			
-Touch base with REST service code	2/15/2016	2/15/2016			
-Touch base with resolved known defects	2/16/2016	2/16/2016			
+Tested Aisle location service 
+Tested Aisle location app in different divices
+Integrated ALAssignPalletToSection service and adaptALAssignPalletToSection adapter
+Tested 404 error functions
+Integrated ALValidateZoneAisleSectionByName service and adaptALValidateZoneAisleSectionByName adapter
+Given KT to new resources.
